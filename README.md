@@ -1,27 +1,51 @@
-# PokedexApp
+# Pokedex - Projeto Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
+Este é um projeto de Pokedex desenvolvido durante o Bootcamp Santander Bootcamp 2023 - Fullstack Java+Angular. O projeto foi criado em Angular e consome a API Pokeapi para exibir informações sobre Pokémon.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+* Exibe a lista de Pokémon com informações como nome, tipo e imagem.
+* Ordenação da lista por ID.
+* Mostra o tipo principal de cada Pokémon.
+  
+## Como Executar
 
-## Code scaffolding
+Certifique-se de ter o Angular CLI instalado globalmente. Caso não tenha, você pode instalá-lo com o seguinte comando:
+```
+npm install -g @angular/cli
+```
+Clone este repositório para o seu ambiente local:
+```
+git clone https://github.com/Lexleon-Oliver/Pokedex.git
+```
+Acesse a pasta do projeto:
+```
+cd Pokedex
+```
+Instale as dependências:
+```
+npm install
+```
+Inicie o servidor de desenvolvimento:
+```
+ng serve
+```
+Abra o navegador e acesse `http://localhost:4200/` para visualizar o aplicativo.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Uso
 
-## Build
+Navegue pela lista de Pokémon usando a barra de rolagem.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologias Utilizadas
 
-## Running unit tests
+* Angular.
+* Angular CLI.
+* HttpClient para fazer solicitações HTTP para a API Pokeapi.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contribuições
 
-## Running end-to-end tests
+Contribuições são bem-vindas! Se você gostaria de contribuir para o projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Licença
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este projeto está licenciado sob a Licença MIT.
