@@ -25,7 +25,7 @@ export class AppComponent implements OnInit {
   private transformPokemonData(pokemonData: any): Pokemon {
     const types = pokemonData.types.map((typeData: any) => typeData.type.name);
     return new Pokemon(
-      pokemonData.order,
+      pokemonData.id,
       pokemonData.name,
       types[0],
       types,
