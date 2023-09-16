@@ -1,6 +1,6 @@
 # Pokedex - Projeto Angular
 
-Este é um projeto de Pokedex desenvolvido durante o Bootcamp Santander Bootcamp 2023 - Fullstack Java+Angular. O projeto foi criado em Angular e consome a API Pokeapi para exibir informações sobre Pokémon.
+Este é um projeto de Pokedex desenvolvido durante o Bootcamp Santander Bootcamp 2023 - Fullstack Java+Angular. Apesar da sugestão inicial da realização do projeto com html, css e javascript, para aumentar um pouco a dificuldade, enquanto eu testava meus conhecimentos na linguagem, o projeto foi criado em Angular e consome a API Pokeapi para exibir informações sobre Pokémon.
 
 ## Funcionalidades
 
